@@ -19,7 +19,7 @@ body {
 }
 
 .carousel-inner {
-	margin-bottom: 25px	;
+	margin-bottom: 0;
 }
 
 .carousel-inner img {
@@ -27,16 +27,14 @@ body {
 	height: 100%;
 }
 
-.carousel-indicators {
-	bottom: -25px;
-}
-
 .carousel-control-prev {
 	left: -10%;
+	bottom: 15%;
 }
 
 .carousel-control-next {
 	right: -10%;
+	bottom: 15%;
 }
 
 .carousel-inner img {
@@ -46,4 +44,10 @@ body {
 
 .table {
 	background-color: white;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
 }
