@@ -22,7 +22,7 @@
  
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   <h1>Wep Apps Unit 6 Group 15</h1>
-  <p>Our website for this class</p>
+  <p>Our website for this class <span class="glyphicon glyphicon-info-sign"></span></p>
   <div class="alert alert-info mx-auto" style="width: 80%;">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
     <strong>Welcome</strong> We hope you enjoy this website!
@@ -52,7 +52,36 @@
         </div>
       </li> -->
     </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link float-right" data-toggle="modal" href="#settingsModal">Info</a>
+      </li>
+    </ul>
   </nav>
+
+  <div class="modal fade" id="settingsModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">About</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          This website was made using bootstrap 4. It was created for the Web Applications class at Colorado School of Mines. 
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
   <div id="carousel" style="height: 100%; background-color: red;">
     <div id="demo" class="carousel slide" data-ride="carousel">
