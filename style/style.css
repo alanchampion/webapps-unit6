@@ -13,13 +13,13 @@ body {
 }
 
 .carousel {
-	max-width: 500px;
+	max-width: 80%;
 	margin: 0 auto;
 	height: auto;
 }
 
 .carousel-inner {
-	margin-bottom: 25px	;
+	margin-bottom: 0;
 }
 
 .carousel-inner img {
@@ -27,16 +27,14 @@ body {
 	height: 100%;
 }
 
-.carousel-indicators {
-	bottom: -25px;
-}
-
 .carousel-control-prev {
-	left: -50px;
+	left: -10%;
+	bottom: 15%;
 }
 
 .carousel-control-next {
-	right: -50px;
+	right: -10%;
+	bottom: 15%;
 }
 
 .carousel-inner img {
@@ -46,6 +44,12 @@ body {
 
 .table {
 	background-color: white;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
 }
 
 #about-us {
